@@ -589,14 +589,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# accreditation
 --------------------------------------------------------------*/
-.clients {
+.accreditation {
   padding: 12px 0;
   text-align: center;
 }
 
-.clients img {
+.accreditation img {
   max-width: 75%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -604,13 +604,13 @@ section {
   filter: grayscale(100);
 }
 
-.clients img:hover {
+.accreditation img:hover {
   filter: none;
   transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
-  .clients img {
+  .accreditation img {
     max-width: 40%;
   }
 }
@@ -861,6 +861,99 @@ section {
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio1 #portfolio1-flters {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.portfolio1 #portfolio1-flters li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.portfolio1 #portfolio1-flters li:hover,
+.portfolio1 #portfolio1-flters li.filter-active {
+  background: #25a612;
+  color: #fff;
+}
+
+.portfolio1 .portfolio1-item {
+  margin-bottom: 30px;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-img {
+  overflow: hidden;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-img img {
+  transition: all 0.6s;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-info {
+  opacity: 0;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  z-index: 3;
+  right: 15px;
+  transition: all 0.3s;
+  background: rgba(55, 81, 126, 0.8);
+  padding: 10px 15px;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-info p {
+  color: #f9fcfe;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-info .preview-link,
+.portfolio1 .portfolio1-item .portfolio1-info .details-link {
+  position: absolute;
+  right: 40px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-info .preview-link:hover,
+.portfolio1 .portfolio1-item .portfolio1-info .details-link:hover {
+  color: #25a612;
+}
+
+.portfolio1 .portfolio1-item .portfolio1-info .details-link {
+  right: 10px;
+}
+
+.portfolio1 .portfolio1-item:hover .portfolio1-img img {
+  transform: scale(1.15);
+}
+
+.portfolio1 .portfolio1-item:hover .portfolio1-info {
   opacity: 1;
 }
 
