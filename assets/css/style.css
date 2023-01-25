@@ -1431,6 +1431,10 @@ section {
   float: left;
 }
 
+#footer .design {
+  float: right;
+}
+
 #footer .credits {
   float: right;
   font-size: 13px;
@@ -1447,6 +1451,7 @@ section {
   }
 
   #footer .copyright,
+  #footer .design,
   #footer .credits {
     text-align: center;
     float: none;
