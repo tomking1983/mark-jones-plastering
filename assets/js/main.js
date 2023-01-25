@@ -256,12 +256,12 @@
   
         on('click', '#portfolio1-flters li', function(e) {
           e.preventDefault();
-          portfolioFilter1s.forEach(function(el) {
+          portfolio1Filter1s.forEach(function(el) {
             el.classList.remove('filter-active');
           });
           this.classList.add('filter-active');
   
-          portfolioIsotope.arrange({
+          portfolio1Isotope.arrange({
             filter: this.getAttribute('data-filter')
           });
           portfolio1Isotope.on('arrangeComplete', function() {
