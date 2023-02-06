@@ -1455,17 +1455,20 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 20px
 }
+
 
 .button-72 {
   align-items: center;
   
   background-color: initial;
-  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  background-image: linear-gradient(rgba(31, 192, 0, .84), rgba(0, 128, 0, .84) 50%);
   border-radius: 42px;
   border-width: 0;
-  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  /* box shadow using facebook blue */
+  box-shadow: rgba(66, 103, 178, 0.24) 0 2px 2px,rgba(66, 103, 178, 0.4) 0 8px 12px;
   color: #FFFFFF;
   cursor: pointer;
   display: flex;
