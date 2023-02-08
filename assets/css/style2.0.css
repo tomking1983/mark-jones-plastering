@@ -432,7 +432,7 @@ h6 {
   padding: 10px 28px 11px 28px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 80px 50px 0 0;
+  margin: 80px 10px 10px 10px;
   color: #5C5C5C;
   background: var(--green);
 }
@@ -466,6 +466,14 @@ h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
   border-radius: 10px;
+}
+
+.container {
+  /* centre items */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #hero .col {
