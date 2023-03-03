@@ -533,8 +533,11 @@ h6 {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
   }
-  
+
+
   }
+
+ 
 
 @-webkit-keyframes up-down {
   0% {
@@ -554,6 +557,10 @@ h6 {
   100% {
     transform: translateY(-10px);
   }
+}
+
+@media only screen and (max-width: 994px) {
+  .space-img{ display: none !important; }
 }
 
 /*--------------------------------------------------------------
