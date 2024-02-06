@@ -11,6 +11,8 @@
   --darkBlue: #37517e;
   --tur: #1fc000;
   --tur: #42E9D9;
+  --orange: #f69504;
+
 }
 
 
@@ -20,8 +22,9 @@ body {
 }
 
 a {
-  color: var(--tur);
+  color: var(--orange);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -1386,7 +1389,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: var(--tur);
+  color: var(--orange);
 }
 
 #footer .footer-top .social-links a {
